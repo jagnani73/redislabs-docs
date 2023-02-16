@@ -29,19 +29,13 @@ Disk space: If you are using [online memory analysis](https://docs.redislabs.com
 
 1. [Download RedisInsight](https://redis.com/redis-enterprise/redis-insight/).
 1. Open a terminal and navigate to the folder containing the downloaded file.
-1. Make your downloaded file into an executable.
+1. Install the file.
 
 ```sh
-chmod +x redisinsight-linux64-<version>
+sudo apt install RedisInsight-<version>
 ```
 
-1. Start RedisInsight.
-
-```sh
-./redisinsight-linux64-<version>
-```
-
-1. To access your RedisInsight UI, open a web browser and navigate to [{{< param siteURL >}}]({{< param siteURL >}}).
+1. RedisInsight is now accessible from app.
 
 
 ## Install RedisInsight on MacOS
